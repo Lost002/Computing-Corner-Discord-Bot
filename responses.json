@@ -1,0 +1,15 @@
+{
+    "FCI": "pcfaq thelp ",
+
+    "pcfaq": {
+        "title": "**Frequently Asked Questions for PC Building Support :cc: **",
+        "desc": "1. What will you use this PC for? (Ex. what games, what is your workload)\n2. What is your budget?\n3. Do you need us to include any specific parts?\n4. Do you prefer any specific brands? (ex. Intel or AMD, Nvidia or AMD).\n5. Anything in specific you want us to do for looks?",
+        "color": "0x03e0f3"
+    },
+
+    "thelp": {
+        "title": "**Ticket Help**",
+        "desc": "To make a ticket, go to #🎫│support-ticket. You will then see a button that says \"Open Support Ticket!\". Click on it.",
+        "color": "0xf7b731"
+    }
+}
