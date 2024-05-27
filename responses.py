@@ -1,4 +1,5 @@
 from QOTD import QOTD
+from games import games
 import json
 
 def get_response(user_input) -> str:
@@ -21,6 +22,11 @@ def get_response(user_input) -> str:
         
         elif command == "good bot":
             return "Yes!"
+        
+        elif command[:4] == "game":
+            print("GAME TIME")
+            games(command[4:])
+
         
         else:
             return "Sorry! I don't know that command yet!"
