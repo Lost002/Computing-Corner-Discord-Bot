@@ -1,7 +1,6 @@
 from QOTD import QOTD
 from games import games
 import json
-
 def get_response(user_input) -> str:
     responses = json.load(open('responses.json'))
 
@@ -26,7 +25,9 @@ def get_response(user_input) -> str:
         elif command[:4] == "game":
             print("GAME TIME")
             games(command[4:])
-
+        
+        elif command == "color_roles":
+            return "<COLOR_ROLES>"
         
         else:
             return "Sorry! I don't know that command yet!"
