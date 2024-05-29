@@ -1,0 +1,4 @@
+
+parts = ['thermal-paste', 'keyboard', 'case', 'memory', 'wired-network-card', 'external-hard-drive', 'cpu-cooler', 'headphones', 'wireless-network-card', 'speakers', 'case-fan', 'optical-drive', 'internal-hard-drive', 'ups']
+
+
